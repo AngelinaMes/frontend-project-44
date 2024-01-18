@@ -7,3 +7,6 @@
 
 make lint - проверка линтера
 npx eslint . --fix - корректировка линтера
+
+## Проект "Brain Even"
+https://asciinema.org/a/U6UiQj0LUYvybHnWE7fQ3O2A1

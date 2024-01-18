@@ -9,3 +9,7 @@ publish:
 
 lint:
 	npx eslint .
+
+bin/brain-even.js:
+	npx eslint .
+	chmod +x bin/brain-even.js
