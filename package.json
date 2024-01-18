@@ -4,9 +4,11 @@
   "description": "[![Actions Status](https://github.com/AngelinaMes/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AngelinaMes/frontend-project-44/actions)",
   "main": "index.js",
   "type": "module",
+  "presets": ["@babel/preset-env"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "type": "module"
+    "type": "module",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +17,13 @@
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/eslint-parser": "^7.23.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }

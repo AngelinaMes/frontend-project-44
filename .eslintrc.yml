@@ -1,0 +1,14 @@
+extends:
+  - airbnb-base
+
+plugins:
+  - import
+
+parser: '@babel/eslint-parser'
+
+parserOptions:
+  requireConfigFile: false
+
+rules:
+  no-console: off
+  import/extensions: off
