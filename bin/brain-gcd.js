@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// eslint-disable-next-line quotes
 import gameBody from "../src/gameBody.js";
 
 const description = 'Find the greatest common divisor of given numbers.';
