@@ -8,7 +8,7 @@ const task = () => {
   const operand2 = Math.round(Math.random() * 10);
 
   const operator = ['+', '*', '-'];
-  const indexOper = Math.floor(Math.random() * 2);
+  const indexOper = Math.floor(Math.random() * 3);
 
   let answer = '';
 
@@ -28,3 +28,5 @@ const task = () => {
 
   return [`${operand1} ${operator[indexOper]} ${operand2}`, answer];
 };
+
+gameBody(description, task);
